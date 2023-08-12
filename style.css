@@ -1,0 +1,304 @@
+:root {
+  --font-family: 'Inter', sans-serif;
+  --background: #18181a; /* 18181a */
+  --dark-grey: #292929;
+  --grey: #b8b8b8;
+  --white: white;
+  --light-red: white; 
+  --red: white;
+  --light-blue: #84A8FD;
+}
+
+/* No, I am not colorblind, I just used one of my past styesheets as a starter for this website and was toolazy too change the names of everything */
+
+card-lg {
+  display: flex;
+  text-align: left;
+  background-color: #272639;
+  padding: 6px 6px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+card:hover, card-lg:hover, content:hover {
+  
+}
+
+.card-img {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin-right: 20px;
+  background-color: var(--bg);
+}
+
+.section {
+  padding: 13px;
+  border-radius: 5px;
+  text-align: center; !important;
+  margin: 30px;
+}
+
+.sec {
+  background: #272639;
+  color: var(--light-blue);
+  font-size: 15px;
+  min-width: 100px;
+  max-width: 300px;
+  height: 35px;
+  border: 2px solid var(--light-blue);
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: 0.15s, border 0s;
+  border-radius: 10px;
+}
+
+.sec:hover {
+  box-shadow: 0px 0px 10px var(--light-blue);
+  border: 0px;
+}
+
+.pill { 
+  border-radius: 90px; 
+} 
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background-color: var(--background);
+}
+
+.center {
+  text-align: center;
+}
+
+blockquote {
+   border-right: 4px solid var(--light-red);  border-left: 4px solid var(--light-red);
+  color: var(--grey);
+  opacity: .7;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  font-style: italic;
+}
+
+mark {
+  background-color: var(--light-red);
+}
+
+mark.rounded {
+  border-radius: 5px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+::selection {
+  background: var(--light-red);
+}
+::-moz-selection {
+  background: var(--light-red);
+}
+
+
+h1, h2, h3, h4, h5, h6, h {
+  color: var(--light-red);
+  text-shadow: 2px 1px 10px var(--light-blue);
+  font-weight: bold;
+}
+
+h5 {
+  text-shadow: 1px 1px 5px var(--light-blue);
+}
+
+p, p1, p2, p3, p4, p5, p6, b, i, u, s {
+  color: var(--grey);
+}
+
+hr {
+  border: 1px solid var(--grey);
+}
+
+.red {
+  color: var(--light-red);
+}
+
+.red-glow {
+  color: white);
+  text-shadow: 3px 1px 15px var(--light-blue);
+}
+
+h1, h {
+	font-size: 45px;
+}
+
+h2 {
+	font-size: 35px;
+  font-weight: bold;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 17px;
+}
+
+.btn {
+  background: var(--background);
+  color: var(--light-red);
+  font-size: 20px;
+  min-width: 150px;
+  max-width: 300px;
+  height: 50px;
+  border: 2px solid var(--light-red);
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  transition: 0.15s, border 0s;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.pill {
+  border-radius: 30px;
+}
+
+.btn:hover {
+  color: var(--light-red);
+  box-shadow: 3px 1px 15px var(--light-red);
+  border: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 3px 1px 15px var(--light-blue);
+}
+
+.boop {
+  box-shadow: -4px 4px 0 0 var(--light-red),
+-4px 4px 0 2px var(--red);
+  background: var(--background);
+  color: var(--light-red);
+  font-size: 20px;
+  min-width: 150px;
+  max-width: 300px;
+  height: 50px;
+  border: 2px solid var(--light-red);
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+  transition: 0.15s, border 0s;
+}
+
+.boop:hover {
+  box-shadow: -1px 1px 0 0 var(--light-red),
+-1px 1px 0 2px var(--red);
+}
+
+code, pre, .code {
+  background-color: var(--dark-grey);
+  color: var(--light-red);
+  font-size: 17px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+fixed-top {
+  position: fixed;
+  top: 0;
+  padding: 5px;
+}
+
+fixed-btm {
+  position: fixed;
+  bottom: 0;
+}
+
+.footer {
+  background-color: var(--light-red);
+  color: IndianRed;
+  font-weight: bold;
+  border-top-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  box-shadow: var(--light-red) 0px 1px 15px;
+  text-opacity: 0.3;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+}
+
+.bg {
+  background-color: var(--background);
+  opacity: 0.75;
+}
+
+.small {
+  min-width: 100px;
+  max-width: 300px;
+  height: 35px
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+  align-content: space-around;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.card {
+  outline: 1.5px var(--background) solid;
+  border-radius: 8px;
+  flex: 1 0 10%;
+  transition: 0.3s;
+}
+
+.card img, .card svg {
+  width: 100%;
+  border: none;
+  border-radius: none;
+}
+
+.card .title, .card p, .card b, .card i, .card s {
+  padding: 5px;
+}
+
+.card > a {
+  padding: 5px;
+}
+
+.card:hover {
+  outline: 1.5px var(--light-blue) solid;
+  box-shadow: 2px 1px 10px var(--light-blue);
+}
